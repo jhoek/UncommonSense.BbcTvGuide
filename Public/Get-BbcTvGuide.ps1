@@ -37,6 +37,8 @@ function Get-BbcTvGuide
                 EpisodeNo       = $_.Episode.Number
                 EpisodeTitle    = $_.Episode.Title
                 EpisodeSynopsis = $_.Episode.Synopsis
+                FullTitle       = (@($_.Show.Title, $_.Episode.Title) | Where-Object { $_ }) -join ' - '
+                FullSynopsis    = @(($_.Show.Synopsis, $_.Episode.Synopsis) | Where-Object { $_ }) -join "`n`n"
             }
         }
     }
