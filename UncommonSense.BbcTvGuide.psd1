@@ -30,7 +30,7 @@
     Copyright         = 'Copyright (c) 2024 Jan Hoek'
 
     # Description of the functionality provided by this module
-    # Description = ''
+    Description       = 'PowerShell module for tv guide on bbcbenelux.com'
 
     # Minimum version of the PowerShell engine required by this module
     # PowerShellVersion = ''
@@ -95,13 +95,13 @@
         PSData = @{
 
             # Tags applied to this module. These help with module discovery in online galleries.
-            Tags = @('tvguide', 'bbc', 'uk')
+            Tags       = @('tvguide', 'bbc', 'uk')
 
             # A URL to the license for this module.
-            # LicenseUri = ''
+            LicenseUri = 'https://raw.githubusercontent.com/jhoek/UncommonSense.BbcTvGuide/main/LICENSE'
 
             # A URL to the main website for this project.
-            # ProjectUri = ''
+            ProjectUri = 'https://github.com/jhoek/UncommonSense.BbcTvGuide'
 
             # A URL to an icon representing this module.
             # IconUri = ''
